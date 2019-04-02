@@ -2,14 +2,14 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
          version="2.4">
 
-    <display-name>Cayenne Rest Service</display-name>
+    <display-name>Cayenne Rest Demo</display-name>
 
     <servlet>
         <servlet-name>Cayenne Rest Demo</servlet-name>
         <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
         <init-param>
             <param-name>javax.ws.rs.Application</param-name>
-            <param-value>org.apache.cayenne.tutorial.config.ApplicationConfig</param-value>
+            <param-value>org.apache.cayenne.tutorial.config.CayenneConfig</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
